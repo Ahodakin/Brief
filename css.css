@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+	background: linear-gradient(90deg, rgb(62, 62, 137) 25%, rgba(125,189,194,1) 100%);
 }
 
 .container{
