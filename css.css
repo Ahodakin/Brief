@@ -1,4 +1,6 @@
-
+body{
+    font-family: sans-serif;
+}
 
 .container{
     margin: auto;
@@ -41,71 +43,49 @@ form{
   
 }
 input[type="text"]{
-    width: 170px;
     height: 30px;
-    margin: 15px;
-    border: 1px solid #969696;
-    border: #3e3f5f solid 1px;
+    border: #cdcdd1 solid 1px;
     border-radius: 5px;
+    padding: 5px;
 }
 input[type=email]{
-    margin-left: 50px;
     width: 400px;
     height: 33px;
-    border: #3e3f5f solid 1px;
+    border: #cdcdd1 solid 1px;
     border-radius: 5px;
+    padding: 5px;
 }
 
 input[type=tel]{
-    margin-left: 50px;
     width: 400px;
     height: 33px;
-    border: #3e3f5f solid 1px;
+    border: #cdcdd1 solid 1px;
     border-radius: 5px;
+    padding: 5px;
    
 }
 
-.use{
-    display: flex;
-    justify-content: space-evenly;
+.info-user{
+    display: inline-block;
+    margin-right: 26px;
+    position: relative;
+    margin-bottom: 25px;
+   
+}
+.info-user label{
+    position: absolute;
+    background-color: #fff;
+    color: #969696;
+    top: -8px;
+    left: 15px;
 }
 
- .Firstt{
-     top: 3px;
-    left: 70px ; 
-   color: #969696;
-   background-color: #fff;
-   position: absolute;
-   font-size: 17px;
-   font-family: Arial, Helvetica, sans-serif;
-
-}
-.Lastt{
-     position: absolute; 
-     top: 3px;
-    right: 125px; 
-   color: #969696;
-   background-color: #fff;
-   font-size: 17px;
-}
-.you{
-    position: absolute; 
-    top: 88px;
-    left: 70px; 
-   color: #969696;
-   background-color: #fff;
-   font-size: 17px;
-   font-family: Arial, Helvetica, sans-serif;
-}
 .phonee{
-  
-    position: absolute; 
-    top: 162px;
-    left: 70px; 
-   color: #969696;
-   background-color: #fff; 
-   font-size: 17px;  
-   font-family: Arial, Helvetica, sans-serif; 
+
+   position: absolute;
+   top: -9px;
+   left: 15px;
+   background-color: #fff;
 
 }
 
@@ -157,30 +137,23 @@ input[type=tel]{
     align-items: center;
 }
 .circle4 {
-    width: 45px;
-	height: 45px;
-	background:  #67a84e;
-    border-radius: 50%;
-	 margin: -2px 450px;	
+    position: relative;
+    margin-top: 20px;
 }
-.date{
-    display:flex;
-   justify-content:space-evenly;
 
-}
 .date .date1{
-    width: 80px;
+    width: 90px;
+    display: inline-block;
+    margin-right: 37px;
+    position: relative;
+}
+    
+
+.date .date1 input{
+    width: 100%;
     
 }
-.date .date2{
-    width: 80px;
-    
-}
-.date .date3{
-    width: 100px;
-padding-left: -10px;
-    
-}
+
 
 input::placeholder {  
    text-indent: 19px;
@@ -196,3 +169,4 @@ input:-ms-input-placeholder {
 	text-indent: 19px;
     font-size: 15px;
 }  
+
